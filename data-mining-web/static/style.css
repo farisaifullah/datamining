@@ -1,0 +1,135 @@
+body {
+  background: #f5f7fa;
+  color: #333;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+}
+.container {
+  max-width: 680px;
+  background: #fff;
+  margin: 40px auto;
+  padding: 30px 30px 15px 30px;
+  border-radius: 14px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.09);
+}
+h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 6px;
+  color: #3575d3;
+}
+.desc {
+  text-align: center;
+  color: #555;
+  margin-bottom: 18px;
+}
+input[type="file"] {
+  display: block;
+  margin: 20px auto 10px auto;
+  color: #333;
+}
+button {
+  background: #3575d3;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 7px;
+  margin: 10px auto 10px auto;
+  display: block;
+  font-size: 1em;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: background 0.2s;
+  min-width: 120px;
+}
+button:hover {
+  background: #2859a4;
+}
+button.reset {
+  background: #eaeaea;
+  color: #3575d3;
+  margin-bottom: 18px;
+}
+button.reset:hover {
+  background: #c5d9f3;
+}
+.mining-box {
+  margin: 24px 0 18px 0;
+  padding: 16px 12px;
+  background: #f1f6fb;
+  border-radius: 7px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+label, select, input[type="number"] {
+  font-size: 1em;
+}
+select, input[type="number"] {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+}
+#preview, #result {
+  background: #f9fbfd;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  color: #222;
+  font-size: 1em;
+  word-break: break-word;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  overflow-x: auto;
+}
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 28px;
+  color: #3575d3;
+}
+.table-scroll {
+  overflow-x: auto;
+  margin-bottom: 8px;
+  width: 100%;
+}
+table {
+  width: max-content;
+  min-width: 600px;
+  border-collapse: collapse;
+  background: #fff;
+  font-size: 0.93em;
+}
+@media (max-width: 800px) {
+  table { min-width: 420px; font-size: 0.88em;}
+  .container { padding: 18px 2vw 10px 2vw; }
+}
+th, td {
+  padding: 7px 6px;
+  border-bottom: 1px solid #eaeaea;
+  text-align: left;
+  white-space: nowrap;
+}
+th {
+  background: #eaf2fb;
+  color: #3575d3;
+  font-weight: 600;
+  font-size: 0.97em;
+}
+.explain {
+  background: #eaf2fb;
+  color: #333;
+  border-radius: 7px;
+  padding: 10px;
+  margin: 15px 0;
+  font-size: 1.06em;
+  word-break: break-word;
+}
+ul {
+  margin-top: 8px;
+  margin-bottom: 12px;
+  padding-left: 18px;
+}
